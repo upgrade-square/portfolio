@@ -266,3 +266,110 @@ a:hover {
         flex-direction: column;
     }
 }
+
+/* Reduce font sizes for mobile screens */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p, li, a {
+        font-size: 11px;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .specialization {
+        font-size: 0.9rem;
+    }
+
+    .contact-info p {
+        font-size: 0.9em;
+    }
+
+    .social-link {
+        font-size: 0.85em;
+    }
+}
+@media screen and (max-width: 480px) {
+    /* Reduce main heading size */
+    header h1 {
+        font-size: 22px; /* Adjust this based on your preference */
+    }
+
+    /* Reduce profile image size */
+    .profile-img {
+        width: 100px; /* Smaller size for mobile */
+        height: 100px;
+    }
+
+    /* Reduce specialization text */
+    .name {
+        font-size: 0.9rem;
+    }
+
+    .specialization {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    /* Reduce main heading size */
+    header h1 {
+        font-size: 18px; /* Smaller for mobile */
+    }
+
+    /* Reduce profile name */
+    .name {
+        font-size: 0.8rem; /* Even smaller */
+    }
+
+    /* Reduce specialization text */
+    .specialization {
+        font-size: 0.7rem;
+    }
+
+    /* Reduce section headings */
+    #projects h2, #contact h2 {
+        font-size: 1.2em; /* Smaller 'My Projects' & 'Contact Me' */
+    }
+
+    /* Further reduce profile image size */
+    .profile-img {
+        width: 90px; 
+        height: 90px;
+    }
+}
+@media screen and (max-width: 480px) {
+    /* Reduce profile image size */
+    .profile-img {
+        width: 80px;
+        height: 80px;
+        border-width: 2px; /* Slightly thinner border */
+    }
+
+    /* Reduce the width and padding of transparent divs */
+    #about, #projects, #contact {
+        max-width: 90%; /* Slightly smaller */
+        padding: 15px; /* Less padding for a compact look */
+        border-left-width: 3px; /* Thinner left border for elegance */
+    }
+
+    /* Make section headings a bit smaller for balance */
+    #projects h2, #contact h2 {
+        font-size: 1.1em;
+    }
+}
